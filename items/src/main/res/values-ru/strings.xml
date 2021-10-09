@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <string name="quality_1">Обычное</string>
+    <string name="quality_2">Необычное</string>
+    <string name="quality_3">Уникальное</string>
+    <string name="quality_4">Особое</string>
+    <string name="quality_5">Зачарованное</string>
+    <string name="quality_6">Эпическое</string>
+    <string name="quality_7">Реликвия</string>
+
+    <string name="stat_a">+ %1$s к ловкости.</string>
+    <string name="stat_s">+ %1$s к силе.</string>
+    <string name="stat_e">+ %1$s к выносливости.</string>
+    <string name="stat_m">+ %1$s к интелекту.</string>
+    <string name="stat_dmg">+ %1$s к урону.</string>
+
+    <string name="stat_res_heal">Мгновенно восстанавливает 10% здоровья.</string>
+    <string name="stat_res_mana">Мгновенно восстанавливает 70 маны.</string>
+    <string name="stat_exp">При использовании добавляет герою 420 ед. опыта.</string>
+    <string name="stat_gold">Инструменты купит любой торговец.</string>
+
+    <string name="sword_w_name1">Клеймор</string>
+    <string name="sword_w_name2">Древний Клеймор</string>
+
+    <string name="sword_p_name1">Меч мученика</string>
+    <string name="sword_p_name2">Меч веры</string>
+
+    <string name="bow_name1">Охотничий лук</string>
+    <string name="bow_name2">Лук мстителя</string>
+
+    <string name="shield_name1">Щит стража</string>
+    <string name="shield_name2">Щит защитника</string>
+
+    <string name="wand_name1">Магический посох</string>
+    <string name="wand_name2">Посох колдуна</string>
+
+    <string name="dagger_name1">Кинжал убийцы</string>
+    <string name="dagger_name2">Королевский кинжал</string>
+
+    <string name="axe_name1">Топор</string>
+    <string name="axe_name2">Сокрушающий топор</string>
+    <string name="axe_name3">Кровавая баня</string>
+
+    <string name="tome_name">Том магии</string>
+    <string name="tools_name">Инструменты</string>
+    <string name="scrolls_name">Древние свитки</string>
+
+    <string name="flask_hp_name">Зелье здоровья</string>
+    <string name="flask_mana_name">Залье маны</string>
+</resources>

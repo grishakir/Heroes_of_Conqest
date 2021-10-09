@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bar_background">
+        <shape android:shape="rectangle">
+            <corners android:radius="55dp" />
+            <gradient
+                android:angle="270"
+                android:centerColor="#fffefe"
+                android:centerY="0.5"
+                android:endColor="#d1faeded"
+                android:startColor="#cfcfcf"
+
+                />
+        </shape>
+    </item>
+    <item android:id="@+id/bar_value">
+        <clip android:gravity="start">
+            <shape android:shape="rectangle">
+                <corners android:radius="55dp" />
+                <gradient
+                    android:angle="90"
+                    android:centerX="0.5"
+                    android:centerY="0.5"
+                    android:endColor="#11aef2"
+                    android:startColor="#053ada"
+
+                    />
+                <stroke
+                    android:width="1dp"
+                    android:color="#151414" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

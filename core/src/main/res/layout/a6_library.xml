@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/medieval_scroll">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/fon_texture"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:paddingTop="0dp">
+
+
+        <LinearLayout
+            android:id="@+id/unit_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/fon_white_trans"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="5dp">
+
+            <ImageButton
+                android:id="@+id/icon_warrior"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_warrior" />
+
+            <ImageButton
+                android:id="@+id/icon_hunter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_hunter" />
+
+            <ImageButton
+                android:id="@+id/icon_mage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_mage" />
+
+            <ImageButton
+                android:id="@+id/icon_rogue"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_rogue" />
+
+            <ImageButton
+                android:id="@+id/icon_paladin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_paladin" />
+
+            <ImageButton
+                android:id="@+id/icon_berserk"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_berserk" />
+
+            <ImageButton
+                android:id="@+id/icon_talents"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_talents" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hero_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" />
+
+        <com.thekingames.ui.FanButton
+            android:id="@+id/text_showing_button"
+            style="@style/medieval_button"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_description" />
+
+        <com.thekingames.ui.FanTextView
+            android:id="@+id/text_hero"
+            style="@style/medieval_text_description"
+            android:layout_width="match_parent"
+            android:gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

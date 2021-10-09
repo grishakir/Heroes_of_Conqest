@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_trans"
+    android:clickable="false">
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:fadingEdgeLength="0dp"
+        android:focusable="true"
+        android:isScrollContainer="true"
+        android:overScrollMode="never"
+        android:requiresFadingEdge="none"
+        android:scrollbars="none"
+        android:splitMotionEvents="false">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:background="@drawable/fon_create_hero"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/close_dialog"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/icon_close" />
+            </RelativeLayout>
+
+            <TableLayout
+                android:id="@+id/item_table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

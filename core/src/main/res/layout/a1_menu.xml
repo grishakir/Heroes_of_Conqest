@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu_background"
+    android:padding="5dp"
+    android:paddingTop="0dp">
+
+    <LinearLayout
+        android:id="@+id/content_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/text_header"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.thekingames.ui.FanButton
+            style="@style/medieval_button"
+            android:onClick="onClickMenu"
+            android:text="@string/p_vs_p" />
+
+        <com.thekingames.ui.FanButton
+            style="@style/medieval_button"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickMenu"
+            android:text="@string/p_vs_ai" />
+
+        <com.thekingames.ui.FanButton
+            style="@style/medieval_button"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickMenu"
+            android:text="@string/train" />
+
+        <com.thekingames.ui.FanButton
+            style="@style/medieval_button"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickMenu"
+            android:text="@string/test_ai_vs_ai"
+            android:visibility="visible" />
+    </LinearLayout>
+</RelativeLayout>

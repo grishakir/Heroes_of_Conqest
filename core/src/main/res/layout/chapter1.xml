@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/medieval_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fon_texture"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.thekingames.ui.FanTextView
+            android:id="@+id/chapter_name"
+            style="@style/medieval_text"
+            android:text="@string/description_chapter0" />
+
+        <LinearLayout
+            android:id="@+id/phrases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/medieval_text"
+            android:layout_marginTop="10dp"
+            android:text="@string/difficulty_level" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/level_easy"
+                    style="@style/medieval_text_description"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/fon_trans"
+                    android:gravity="center"
+                    android:text="@string/easy_level" />
+
+                <TextView
+                    android:id="@+id/level_hard"
+                    style="@style/medieval_text_description"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:text="@string/hard_level" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/fon_trans"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_forward" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

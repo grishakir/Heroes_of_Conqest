@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="trans">#bf302e2e</color>
+    <color name="border">#262626</color>
+    <color name="white">#f9f5f5</color>
+    <color name="black">#000000</color>
+    <color name="text">#608cf7</color>
+    <color name="dialog_trans">#7c20201f</color>
+    <color name="dialog_blue_trans">#0875C2</color>
+    <color name="active">#7c0d20ab</color>
+    <color name="red">#fad6240d</color>
+    <color name="blue">#5843df</color>
+    <color name="is_new">#ff7606</color>
+</resources>

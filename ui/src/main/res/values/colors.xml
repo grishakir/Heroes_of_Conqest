@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="callDown">#ed0e0e0e</color>
+    <color name="gcd">#94333030</color>
+    <color name="text_icon">#62ef62</color>
+    <color name="text_icon_X">#92c9f1</color>
+    <color name="text_icon_Y">#f1e192</color>
+    <color name="text_icon_Z">#e492f1</color>
+    <color name="text_bar">#fcfdff</color>
+    <color name="text_counter">#053938</color>
+    <color name="text_effect">#001f5c</color>
+
+    <color name="hp1">#e7aac3</color>
+    <color name="hp2">#ff0065</color>
+
+    <color name="rage1">#e13d42</color>
+    <color name="rage2">#ba0006</color>
+
+    <color name="energy1">#eab242</color>
+    <color name="energy2">#fab318</color>
+
+    <color name="mana1">#4b45de</color>
+    <color name="mana2">#0027a7</color>
+
+    <color name="damage">#fdfdf6</color>
+    <color name="great_damage">#ed240d</color>
+    <color name="heal">#83ff6d</color>
+
+</resources>

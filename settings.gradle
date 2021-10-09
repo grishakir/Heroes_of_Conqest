@@ -1,0 +1,1 @@
+include ':core', ':ui', ':animation',':network', ':com.thekingames.screen-v1.1-release', ':items', ':company', ':tasks'

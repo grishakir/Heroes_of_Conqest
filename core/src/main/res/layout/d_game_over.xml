@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_trans"
+    android:clickable="false">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="@dimen/w_bin_dialog"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fon_dialog">
+
+        <com.thekingames.ui.FanTextView
+            android:id="@+id/text_header"
+            style="@style/medieval_text_header"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ribbon"
+            android:text="@string/player1" />
+
+        <LinearLayout
+            android:id="@+id/dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_header"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/fon_trans"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/crystal" />
+
+                <com.thekingames.ui.FanTextView
+                    android:id="@+id/award_crystal"
+                    style="@style/medieval_text"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="3000" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/coin" />
+
+                <com.thekingames.ui.FanTextView
+                    android:id="@+id/award_coin"
+                    style="@style/medieval_text"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="1500" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/exp" />
+
+                <com.thekingames.ui.FanTextView
+                    android:id="@+id/award_exp"
+                    style="@style/medieval_text"
+                    android:text="55" />
+            </LinearLayout>
+
+            <com.thekingames.ui.FanButton
+                android:id="@+id/next"
+                style="@style/medieval_button"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/next" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</FrameLayout>

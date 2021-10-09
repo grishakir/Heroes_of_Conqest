@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('com.thekingames.screen-v1.1-release.aar'))

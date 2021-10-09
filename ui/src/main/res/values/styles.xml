@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="medieval_icon_skill">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_icon</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="medieval_progress_bar">
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_width">163dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_bar</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="medieval_icon_effect">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_width">50dp</item>
+    </style>
+
+    <style name="medieval_text_effect">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">50dp</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_effect</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_damage">
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/damage</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="text_great_damage">
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/great_damage</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="text_heal">
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/heal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

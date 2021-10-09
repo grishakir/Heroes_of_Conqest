@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">Герои завоеваний</string>
+
+    <string name="warrior">Воин</string>
+    <string name="hunter">Охотник</string>
+    <string name="rogue">Разбойник</string>
+    <string name="mage">Маг</string>
+    <string name="paladin">Паладин</string>
+    <string name="berserk">Берсерк</string>
+    <string name="choose">Выбрать</string>
+
+    <string name="player1">Игрок 1</string>
+
+    <string name="player2">Игрок 2</string>
+
+    <string name="p_vs_p">Дуэль</string>
+    <string name="p_vs_ai">Кампания</string>
+    <string name="train">Тренировка</string>
+    <string name="test_ai_vs_ai">Тест</string>
+    <string name="statistic">Статистика</string>
+    <string name="b_library">Библиотека</string>
+    <string name="b_shop">Магазин</string>
+    <string name="b_inventory">Инвентарь</string>
+    <string name="b_battle">Подготовка к бою</string>
+    <string name="b_tasks">Задания</string>
+    <string name="b_castle">Замок</string>
+    <string name="b_achievements">Достижения</string>
+    <string name="b_search_for_heroes">Поиск героев</string>
+
+    <string name="call_down">Время восстановления:" "</string>
+    <string name="second">" "с.</string>
+    <string name="cost">Цена:" "</string>
+    <string name="part_rage">ярости</string>
+    <string name="part_energy">энергии</string>
+    <string name="part_mana">маны</string>
+
+    <string name="exit">Выход</string>
+    <string name="back">Назад</string>
+    <string name="next">Продолжить</string>
+
+    <string name="spell_name_cutting_blow">Порез</string>
+    <string name="spell_name_reflection">Отражение</string>
+    <string name="spell_name_deep_wound">Глубокая рана</string>
+    <string name="spell_name_thunderstorm">Громовой удар</string>
+    <string name="spell_name_madness">Безумие</string>
+
+    <string name="spell_lightning_bolt">Выстрел молнии</string>
+    <string name="spell_name_trap">Ловушка</string>
+    <string name="spell_name_piercing_shot">Пронзающий выстрел</string>
+    <string name="spell_name_vengeful">Мститель</string>
+    <string name="spell_name_aura_of_nature">Аура природы</string>
+
+    <string name="spell_name_witchcraft">Колдовство</string>
+    <string name="spell_name_silence">Немота</string>
+    <string name="spell_name_frost_bolt">Ледяная стрела</string>
+    <string name="spell_name_distribution_shield">Распределительный щит</string>
+    <string name="spell_name_blast">Колдовской взрыв</string>
+
+    <string name="spell_name_dagger_throw">Бросок</string>
+    <string name="spell_name_sudden_blow">Внезапный удар</string>
+    <string name="spell_name_smoke">Дым</string>
+    <string name="spell_name_poisoning">Отравление</string>
+    <string name="spell_name_mastery">Искусность</string>
+
+    <string name="spell_name_crushing_blow">Сокрушающий удар</string>
+    <string name="spell_name_flash">Вспышка</string>
+    <string name="spell_name_holy_aura">Святая аура</string>
+    <string name="spell_name_shield_bash">Удар щитом</string>
+    <string name="spell_name_healing">Исцеление</string>
+
+    <string name="spell_name_rage">Ярость</string>
+    <string name="spell_name_disarming">Разоружение</string>
+    <string name="spell_name_crippling_blow">Калечащий удар</string>
+    <string name="spell_name_rage_lunge">Яростный выпад</string>
+    <string name="spell_name_mana_burn">Сжигание маны</string>
+
+    <string name="t1_freedom">Свобода</string>
+    <string name="t1_dispel_magic">Рассеивание магии</string>
+    <string name="t1_magic_shield">Магический щит</string>
+
+    <string name="t1_freedom_desc">Рассеивает все эффекты вызвающие потерю контроля над персонажем</string>
+    <string name="t1_dispel_magic_desc">Снимает 1 положительный эффект(если это возможно) с противника</string>
+    <string name="t1_magic_shield_desc">В течении 3 с. раз в 1 с. рассеивает с персонажа все негативные эффекты</string>
+
+    <string name="spell_dam">Наносит цели %1$s урона.
+    </string>
+
+    <string name="spell_dam_executor">Наносит цели %1$s урона.Если цель имеет меньше, чем %2$s здоровья, то наносит на %3$s больше урона.
+    </string>
+
+    <string name="spell_dam_witchcraft">Наносит цели %1$s урона за каждый эффект колдовства.
+    </string>
+
+
+    <string name="spell_reflection">
+        В течении %1$s с. отражает все направленные на персонажа способности.
+    </string>
+
+    <string name="spell_witchcraft">
+        Накладывает на персонажа эффект усиливающий ваши атакующие заклинания. Суммируется до %1$d раз.
+        </string>
+
+    <string name="spell_witchcraft_damage">Наносит цели %1$s  урона и дополнительно %2$s за каждый эффект колдовства</string>
+
+    <string name="spell_def_down_mage">На %1$s с. ослабляет броню цели на %2$s. Каждый эффект колдовства добавляет %1$s с. и уменьшает броню ещё на %2$s.
+    </string>
+
+    <string name="spell_silence">Цель не может произносить заклинания в течение %1$s с.</string>
+
+    <string name="spell_smoke">В течение %1$d с. персонажа нельзя выбрать в качестве цели для атаки.</string>
+
+
+    <string name="spell_holy_aura">
+        В течение %1$d с. урон и защита персонажа увеличиваются на %2$s.\nТак же каждую секунду накапливается %3$d маны, а после окончания эффекта будет восстановлено %4$s здоровья.
+    </string>
+
+    <string name="spell_stun">Оглушает цель на %1$s с.
+    </string>
+
+    <string name="spell_def_d">На %1$s с. уменьшает броню цели на %2$s.
+    </string>
+
+
+    <string name="spell_def_u">На %1$d с. увеличивает броню на %2$s.
+    </string>
+
+    <string name="spell_dot">В течение %1$d с. наносит цели %2$s урона. Эффект складывается до %3$d раз.
+    </string>
+
+    <string name="spell_burst">На %1$d с. урон повышается на %2$s, а скорость атаки на %3$s.</string>
+
+    <string name="spell_healing">
+        Мгновенно восстанавливает здоровье в рамере %1$s от показателя силы атаки.\nТак же в течение %2$s восстанавливает здоровье в размере %3$s от показателя силы атаки раз в секунду.\nЭффект суммируется до %4$d раз.
+    </string>
+
+    <string name="part_accumulate">Раз в 1 с. накапливается %1$d %2$s</string>
+
+    <string name="spell_rage">На %1$d с. персонаж впадает в ярость!\nПоказатель силы атаки увеличивается на %2$s, но защита уменьшается на %3$s.\nКаждую 1 с. действие эффекта становится слабее.\nСоздает %4$s ярости
+    </string>
+
+
+    <string name="spell_disarming">На %1$s c. разоружает цель.
+    </string>
+
+    <string name="spell_life_steal">Восстанавливает здоровье в размере %1$s от нанесённого урона.
+    </string>
+
+    <string name="spell_crippling_blow">Цель не может произносить заклинания в течение %1$s с. после окончания оглушения.
+    </string>
+
+
+    <string name="spell_mana_burn">В течение %1$s с. сжигает цели %2$s маны раз в 1 с. и наносит %3$s урона.\nЭффект суммируется до %4$d раз.
+    </string>
+
+    <string name="spell_dispel_mana_burn">Рассеивает все эффекты сожжения маны.
+    </string>
+
+    <string name="damage">Урон:</string>
+    <string name="max_damage">Макс. урон:</string>
+    <string name="a_damage">Ср. урон:</string>
+    <string name="heal">Исцеление:</string>
+    <string name="max_heal">Макс. исцеление:</string>
+    <string name="go_to_menu">В меню</string>
+    <string name="menu">Меню</string>
+    <string name="restart">Заново</string>
+    <string name="backward">Назад</string>
+
+    <string name="r_lvl">Ур.:</string>
+    <string name="item_class_selector">Класс:</string>
+    <string name="item_quality">Качество:</string>
+    <string name="buy">Купить</string>
+    <string name="sell">Продать</string>
+
+    <string name="warrior_name">Феррус</string>
+    <string name="hunter_name">Ормус</string>
+    <string name="mage_name">Ревенант</string>
+    <string name="paladin_name">Сераф</string>
+    <string name="rogue_name">Гунн</string>
+    <string name="berserker_name">Сурт</string>
+
+    <string name="spells">Способности</string>
+    <string name="gear">Снаряжение</string>
+    <string name="difficulty_level">Сложность</string>
+    <string name="easy_level">Лёгкий</string>
+    <string name="hard_level">Сложный</string>
+    <string name="learn_more">Подробнее</string>
+    <string name="execute">Выполнить</string>
+    <string name="luck">Успех</string>
+    <string name="failure">Неудача</string>
+    <string name="text_description">Описание</string>
+    <string name="history">История</string>
+</resources>

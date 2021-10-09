@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_trans"
+    android:clickable="false">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="@dimen/w_bin_dialog"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fon_dialog">
+
+        <com.thekingames.ui.FanTextView
+            android:id="@+id/text_header"
+            style="@style/medieval_text_header"
+            android:layout_centerHorizontal="true"
+            android:text="@string/menu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_header"
+            android:orientation="vertical">
+
+
+            <com.thekingames.ui.FanButton
+                android:id="@+id/next"
+                style="@style/medieval_button"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:text="@string/next" />
+
+            <com.thekingames.ui.FanButton
+                android:id="@+id/restart"
+                style="@style/medieval_button"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:text="@string/restart" />
+
+            <com.thekingames.ui.FanButton
+                android:id="@+id/backward"
+                style="@style/medieval_button"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:text="@string/backward" />
+
+            <com.thekingames.ui.FanButton
+                android:id="@+id/goto_menu"
+                style="@style/medieval_button"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:text="@string/go_to_menu" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_texture"
+    android:clickable="false">
+
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fon_create_hero"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/close_dialog"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_close" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/unit_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/icon_warrior"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_warrior" />
+
+            <ImageButton
+                android:id="@+id/icon_hunter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_hunter" />
+
+            <ImageButton
+                android:id="@+id/icon_mage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_mage" />
+
+            <ImageButton
+                android:id="@+id/icon_rogue"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_rogue" />
+
+            <ImageButton
+                android:id="@+id/icon_paladin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_paladin" />
+
+            <ImageButton
+                android:id="@+id/icon_berserk"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/fon_icon1"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_berserk" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.thekingames.ui.FanButton
+                android:id="@+id/buy"
+                style="@style/medieval_button" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/crystal" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

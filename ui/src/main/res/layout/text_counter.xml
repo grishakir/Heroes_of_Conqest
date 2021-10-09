@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.thekingames.ui.FanTextView
+        android:id="@+id/text_count"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/fon_counter"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="3"
+        android:textColor="#efb004"
+        android:textSize="14sp" />
+
+</RelativeLayout>

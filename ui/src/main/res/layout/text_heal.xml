@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/icon_left"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <com.thekingames.ui.DamTextView
+        android:id="@+id/text"
+        style="@style/text_heal"
+        android:layout_width="60dp"
+        android:gravity="center">
+
+    </com.thekingames.ui.DamTextView>
+
+    <ImageView
+        android:id="@+id/icon_right"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+</LinearLayout>

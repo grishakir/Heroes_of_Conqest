@@ -1,0 +1,57 @@
+<resources>
+    <string name="quality_1">Common</string>
+    <string name="quality_2">Uncommon</string>
+    <string name="quality_3">Unique</string>
+    <string name="quality_4">Exclusive</string>
+    <string name="quality_5">Enchanted</string>
+    <string name="quality_6">Epic</string>
+    <string name="quality_7">Relic</string>
+
+    <string name="stat_a">+ %1$s dex.</string>
+    <string name="stat_s">+ %1$s str.</string>
+    <string name="stat_e">+ %1$s end.</string>
+    <string name="stat_m">+ %1$s int.</string>
+    <string name="stat_dmg">+ %1$s damage.</string>
+
+    <string name="stat_res_heal">Replenish 10% of life.</string>
+    <string name="stat_res_mana">Replenish 70 mana.</string>
+    <string name="stat_exp">Gives 420 experience.</string>
+    <string name="stat_gold">Any trader wil by it.</string>
+
+    <string name="sword_w_name">Steel blade</string>
+    <string name="sword_p_name">Martyr\'s sword</string>
+    <string name="bow_name">Hunter bow</string>
+    <string name="shield_name">Guardian shield</string>
+    <string name="wand_name">Mage wand</string>
+    <string name="dagger_name">Assassin\'s blade</string>
+    <string name="axe1_name">Devastating axe</string>
+    <string name="axe2_name">Crushing axe</string>
+    <string name="tome_name">Tome of knowledge</string>
+
+    <string name="sword_w_name1">Claymore</string>
+    <string name="sword_w_name2">Ancient Claymore</string>
+
+    <string name="sword_p_name1">Sword of the martyr</string>
+    <string name="sword_p_name2">Sword of faith</string>
+
+    <string name="bow_name1">Hunter bow</string>
+    <string name="bow_name2">Avenger\'s bow</string>
+
+    <string name="shield_name1">Shield of guardian</string>
+    <string name="shield_name2">Shield of defender</string>
+
+    <string name="wand_name1">Magic staff</string>
+    <string name="wand_name2">Sorcerer\'s staff</string>
+
+    <string name="dagger_name1">Assassin\'s dagger</string>
+    <string name="dagger_name2">Royal dagger</string>
+
+    <string name="axe_name1">Axe</string>
+    <string name="axe_name2">Crushing axe</string>
+    <string name="axe_name3">Blood bath</string>
+
+    <string name="tools_name">Tools</string>
+    <string name="scrolls_name">Ancient scrolls</string>
+    <string name="flask_hp_name">Healing poution</string>
+    <string name="flask_mana_name">Mana poution</string>
+</resources>

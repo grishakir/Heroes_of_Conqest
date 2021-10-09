@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">Heroes of Conquest</string>
+
+    <string name="warrior">Warrior</string>
+    <string name="hunter">Hunter</string>
+    <string name="rogue">Rogue</string>
+    <string name="mage">Mage</string>
+    <string name="paladin">Paladin</string>
+    <string name="berserk">Berserker</string>
+    <string name="choose">Choose</string>
+
+    <string name="player1">Player 1</string>
+
+    <string name="player2">Player 2</string>
+
+    <string name="p_vs_p">Duel</string>
+    <string name="p_vs_ai">Company</string>
+    <string name="train">Training</string>
+    <string name="test_ai_vs_ai">Test</string>
+    <string name="statistic">Statistics</string>
+    <string name="b_library">library</string>
+    <string name="b_shop">Shop</string>
+    <string name="b_inventory">Inventory</string>
+    <string name="b_battle">Preparing for battle</string>
+    <string name="b_tasks">Tasks</string>
+    <string name="b_castle">Castle</string>
+    <string name="b_achievements">Achievements</string>
+    <string name="b_search_for_heroes">Search for heroes</string>
+
+    <string name="call_down">Cooldown:" "</string>
+    <string name="second">" "sec.</string>
+    <string name="cost">Cost:" "</string>
+    <string name="part_rage">rage</string>
+    <string name="part_energy">energy</string>
+    <string name="part_mana">mana</string>
+
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="next">Continue</string>
+
+    <string name="spell_name_cutting_blow">Cut</string>
+    <string name="spell_name_reflection">Reflection</string>
+    <string name="spell_name_deep_wound">Deep wound</string>
+    <string name="spell_name_thunderstorm">Thunderstrike</string>
+    <string name="spell_name_madness">Madness</string>
+
+    <string name="spell_lightning_bolt">Lightning shot</string>
+    <string name="spell_name_trap">Trap</string>
+    <string name="spell_name_piercing_shot">Piercing shot</string>
+    <string name="spell_name_vengeful">Avenger</string>
+    <string name="spell_name_aura_of_nature">Nature aura</string>
+
+    <string name="spell_name_witchcraft">Sorcery</string>
+    <string name="spell_name_silence">Silence</string>
+    <string name="spell_name_frost_bolt">Frostbolt</string>
+    <string name="spell_name_distribution_shield">Ice barrier</string>
+    <string name="spell_name_blast">Dark blast</string>
+
+    <string name="spell_name_dagger_throw">Dart</string>
+    <string name="spell_name_sudden_blow">Sudden blow</string>
+    <string name="spell_name_smoke">Smoke</string>
+    <string name="spell_name_poisoning">Poison</string>
+    <string name="spell_name_mastery">Mastery</string>
+
+    <string name="spell_name_crushing_blow">Crushing blow</string>
+    <string name="spell_name_flash">Flash</string>
+    <string name="spell_name_holy_aura">Holy aura</string>
+    <string name="spell_name_shield_bash">Shielblow</string>
+    <string name="spell_name_healing">Healing</string>
+
+    <string name="spell_name_rage">Wrath</string>
+    <string name="spell_name_disarming">Disarm</string>
+    <string name="spell_name_crippling_blow">Crippling blow</string>
+    <string name="spell_name_rage_lunge">Fierce attack</string>
+    <string name="spell_name_mana_burn">Manaburn</string>
+
+    <string name="t1_freedom">Freedom</string>
+    <string name="t1_dispel_magic">Dispel</string>
+    <string name="t1_magic_shield">Divine shield</string>
+
+    <string name="t1_freedom_desc">Disperses all effects causing loss of control over the character.</string>
+    <string name="t1_dispel_magic_desc">Removes 1 positive effect (if possible) from the opponent.</string>
+    <string name="t1_magic_shield_desc">Within 3 sec. every 1 sec. removes all negative effects from character.</string>
+
+    <string name="spell_dam">Deal %1$s damage.
+    </string>
+
+    <string name="spell_dam_executor">Deal %1$s damage. If the target has less than %2$s health, it deals %3$s more damage.
+    </string>
+
+    <string name="spell_dam_witchcraft">Deal %1$s damage for every Sorcery on the opponent.
+    </string>
+
+
+    <string name="spell_reflection">
+        Within %1$s sec. reflects all the character-directed abilities.
+    </string>
+
+    <string name="spell_witchcraft">
+        Impose an effect to your character, that strengthens your spells. Stuck to %1$d.
+        </string>
+
+    <string name="spell_witchcraft_damage">Deal %1$s  damage and in addition %2$s for every sorcery</string>
+
+    <string name="spell_def_down_mage">Within %1$s sec. weakens the target\'s armor by %2$s. Every sorcery extends effect to %1$s sec. and weakens armor by %2$s more.
+    </string>
+
+    <string name="spell_silence">Target can\'t cast for %1$s sec.</string>
+
+    <string name="spell_smoke">Within %1$d sec. character can not be selected as the target for attacks.</string>
+
+
+    <string name="spell_holy_aura">
+        Within %1$d sec. character\'s damage and defence increased by %2$s.\nEvery sec. gains %3$d mana, after expiration replenish %4$s health.
+    </string>
+
+    <string name="spell_stun">Stun your target by %1$s sec.
+    </string>
+
+    <string name="spell_def_d">Within %1$s sec. reduce target\'s armour by %2$s.
+    </string>
+
+
+    <string name="spell_def_u">Within %1$d sec. encrease armour by %2$s.
+    </string>
+
+    <string name="spell_dot">Within %1$d sec. deal %2$s damage. Stuck to %3$d.
+    </string>
+
+    <string name="spell_burst">Within %1$d sec. encrease damage by %2$s and attack speed by %3$s.</string>
+
+    <string name="spell_healing">
+        Replenish health by %1$s from attack power.\nSame within %2$s sec. replenish health by %3$s from attack power every sec.\nStuck to %4$d.
+    </string>
+
+    <string name="part_accumulate">Every sec. get %1$d %2$s</string>
+
+    <string name="spell_rage">Enrage character by %1$d sec.\nAttack power increased by %2$s, but decrease defence by %3$s.\nEvery sec. weakens an effect.\nGets %4$s rage.
+    </string>
+
+
+    <string name="spell_disarming">Disarm target by %1$s sec.
+    </string>
+
+    <string name="spell_life_steal">Replenish health by %1$s from dealt damage.
+    </string>
+
+    <string name="spell_crippling_blow">Target can\'t cast within %1$s sec. after stun expire.
+    </string>
+
+
+    <string name="spell_mana_burn">Within %1$s sec. burn %2$s target\'s mana every sec. and dealt %3$s damage.\nStuck to %4$d.
+    </string>
+
+    <string name="spell_dispel_mana_burn">Dispels all mana burn effects.
+    </string>
+
+    <string name="damage">Damage:</string>
+    <string name="max_damage">Max. damage:</string>
+    <string name="a_damage">Average Damage:</string>
+    <string name="heal">Healed:</string>
+    <string name="max_heal">Max healing:</string>
+    <string name="go_to_menu">Open menu</string>
+    <string name="menu">Menu</string>
+    <string name="restart">Retry</string>
+    <string name="backward">Back</string>
+    <string name="r_lvl">Lv.:</string>
+    <string name="item_class_selector">Class:</string>
+    <string name="item_quality">Quality:</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+
+    <string name="warrior_name">Ferrus</string>
+    <string name="hunter_name">Ormus</string>
+    <string name="mage_name">Revenant</string>
+    <string name="paladin_name">Seraph</string>
+    <string name="rogue_name">Gunn</string>
+    <string name="berserker_name">Surt</string>
+    <string name="spells">Skills</string>
+    <string name="gear">Items</string>
+    <string name="difficulty_level">Difficulty level</string>
+    <string name="easy_level">Easy</string>
+    <string name="hard_level">Hard</string>
+    <string name="learn_more">Learn more</string>
+    <string name="execute">Execute</string>
+    <string name="luck">Luck!</string>
+    <string name="failure">Failure</string>
+    <string name="text_description">Description</string>
+    <string name="history">History</string>
+</resources>

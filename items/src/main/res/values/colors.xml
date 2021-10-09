@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_quality_1">#302c2c</color>
+    <color name="color_quality_2">#147b2a</color>
+    <color name="color_quality_3">#897e04</color>
+    <color name="color_quality_4">#160574</color>
+    <color name="color_quality_5">#840466</color>
+    <color name="color_quality_6">#843904</color>
+    <color name="color_quality_7">#b92005</color>
+</resources>

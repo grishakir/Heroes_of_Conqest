@@ -1,0 +1,164 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:fadingEdgeLength="0dp"
+    android:focusable="true"
+    android:isScrollContainer="true"
+    android:overScrollMode="never"
+    android:requiresFadingEdge="none"
+    android:scrollbars="none"
+    android:splitMotionEvents="false">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fon_texture"
+        android:padding="15dp"
+        android:paddingTop="0dp">
+
+        <com.thekingames.ui.FanTextView
+            android:id="@+id/game_end"
+            style="@style/medieval_text"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="01:45"
+            android:textColor="#efcb2a"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_end"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <com.thekingames.ui.FanTextView
+                    android:id="@+id/player1"
+                    style="@style/medieval_text_header"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/player1" />
+
+                <LinearLayout
+                    android:id="@+id/left_side"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingStart="20dp"
+                    tools:ignore="RtlSymmetry">
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/damage" />
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/max_damage" />
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/a_damage" />
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/heal" />
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/max_heal" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <com.thekingames.ui.FanTextView
+                    android:id="@+id/player2"
+                    style="@style/medieval_text_header"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/player2" />
+
+                <LinearLayout
+                    android:id="@+id/right_side"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingStart="20dp"
+                    tools:ignore="RtlSymmetry">
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/damage" />
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/max_damage" />
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/a_damage" />
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/heal" />
+
+                    <com.thekingames.ui.FanTextView
+                        style="@style/medieval_text_description"
+                        android:text="@string/max_heal" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/spells_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spells_history"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <com.thekingames.ui.FanButton
+                android:id="@+id/next"
+                style="@style/medieval_button"
+                android:layout_marginTop="10dp"
+                android:text="@string/go_to_menu" />
+
+            <com.thekingames.ui.FanButton
+                android:id="@+id/show_history"
+                style="@style/medieval_button"
+                android:layout_marginTop="10dp"
+                android:text="@string/learn_more" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

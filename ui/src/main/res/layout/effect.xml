@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icon"
+        style="@style/medieval_icon_effect"
+        tools:ignore="ContentDescription" />
+
+    <com.thekingames.ui.FanTextView
+        android:id="@+id/text"
+        style="@style/medieval_text_effect" />
+
+    <com.thekingames.ui.FanTextView
+        android:id="@+id/counter"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:textColor="@color/text_counter"
+        android:textSize="15sp" />
+</RelativeLayout>
